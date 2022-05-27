@@ -1,6 +1,22 @@
-.background {
-    background-image:url(neloiswiki.github.io/imgs/backgroundimg.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover
+body{
+    background-image:url(imgs/backgroundimg.jpg);
+    background-repeat:repeat-y;
+    background-position:top;
+    border:none;
+    background-size:cover;
+}
+.dwoppywoppy{
+    display:inline;
+    position:relative;
+}
+
+.prompt{
+    color:black;
+    font:small;
+    font-family:'Comic Sans MS';
+}
+.pliotitle{
+    position:center;
+    font:bold;
+    font-family:'Comic Sans MS';
 }
