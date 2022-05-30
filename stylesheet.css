@@ -5,14 +5,10 @@ body{
     border:none;
     background-size:cover;
 }
-.dwoppywoppy{
-    display:inline;
-    position:relative;
-}
-
 .prompt{
     color:black;
     font:small;
+    flex:auto;
     font-family:'Comic Sans MS';
 }
 .pliotitle{
@@ -20,14 +16,44 @@ body{
     font:bold;
     font-size:80px;
     font-family:'Copperplate Gothic';
+    -webkit-text-stroke:white;
+    -webkit-text-stroke-width:2px;
 }
 .pliotext{
     font-size:medium;  
-    font-family:    
+    font-family: "Microsoft Sans Serif";    
 }
 nav{
     border:10px transparent 5px;
+    align-items:center;
 }
-.prompt:hover{
-    opacity:0.5;
+#locations, #characters{
+    position:relative;
+    display:inline-block;
+}
+.characters, .locations {
+    display:none;
+    position:absolute;
+    background-color: black;
+    background-size:inherit;
+    opacity: 0.8;
+    box-shadow:inset 5px;
+    padding:initial;
+    z-index:auto;
+}
+.characters a, .locations a {
+    color:aliceblue;
+    text-decoration:none;
+}
+#characters:hover .characters, #locations:hover .locations{
+    display:block;
+}
+.title_logo{
+    max-height:400px;
+}
+.pliossing_my_pants{
+    text-align:center;
+}
+#cum {
+    text-align:center;
 }
