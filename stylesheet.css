@@ -16,7 +16,18 @@ body{
     font-family:'Comic Sans MS';
 }
 .pliotitle{
-    position:center;
+    text-align:center;
     font:bold;
-    font-family:'Comic Sans MS';
+    font-size:80px;
+    font-family:'Copperplate Gothic';
+}
+.pliotext{
+    font-size:medium;  
+    font-display:block;
+}
+nav{
+    border:10px transparent 5px;
+}
+.prompt:hover{
+    opacity:0.5;
 }
