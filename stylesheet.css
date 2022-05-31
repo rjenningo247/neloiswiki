@@ -6,30 +6,33 @@ body{
     background-size:cover;
 }
 .prompt{
+    font-size:large;
     color:black;
-    font:small;
-    flex:auto;
-    font-family:'Comic Sans MS';
+    font-family:'Copperplate Gothic';
+    border-color:black;
+    border-radius:3px;
+    height:30px;
+    
+}
+.prompt:hover{
+    background-color:black;
+    color:white;
 }
 .pliotitle{
     text-align:center;
     font:bold;
     font-size:80px;
     font-family:'Copperplate Gothic';
-    -webkit-text-stroke:white;
-    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke:white 2px;
 }
 .pliotext{
     font-size:medium;  
     font-family: "Microsoft Sans Serif";    
 }
-nav{
-    border:10px transparent 5px;
-    align-items:center;
-}
 #locations, #characters{
     position:relative;
     display:inline-block;
+    font-size:medium;
 }
 .characters, .locations {
     display:none;
@@ -37,12 +40,12 @@ nav{
     background-color: black;
     background-size:inherit;
     opacity: 0.8;
-    box-shadow:inset 5px;
+    box-shadow:inset, 10px;
     padding:initial;
     z-index:auto;
 }
 .characters a, .locations a {
-    color:aliceblue;
+    color:lightblue;
     text-decoration:none;
 }
 #characters:hover .characters, #locations:hover .locations{
