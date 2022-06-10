@@ -6,8 +6,14 @@ body{
     background-size:cover;
     cursor: url("imgs/luger.png"), auto;
 }
+a:active, button:active, body:active{
+    cursor: url("imgs/firing_luger.png"), auto;
+}
 .cons{
     cursor:url("imgs/luger.png"), auto;
+}
+.arg{
+    display:none;
 }
 .prompt{
     font-size:large;
@@ -79,8 +85,13 @@ body{
   text-align:center;
   font-size:x-large;
   color:aliceblue; 
-  padding:40px; 
+  padding:40px;
 }
 button{
-    cursor: url("imgs/firing_luger.png"), auto;
+    cursor: url("imgs/drawn-luger.png"), auto;
+}
+.contentig {
+    width:auto;
+    height:auto;
+    border: 2px solid black;
 }
