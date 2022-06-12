@@ -12,9 +12,6 @@ a:active, button:active, body:active{
 .cons{
     cursor:url("imgs/luger.png"), auto;
 }
-.arg{
-    display:none;
-}
 .prompt{
     font-size:large;
     color:black;
@@ -39,9 +36,7 @@ a:active, button:active, body:active{
 .pliotext{
     font-size:55px;  
     font-family:'Times New Roman';
-    color:red;
-    -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: black;       
+    color:red;  
     text-align:center;
     font:bolder;
 }
@@ -53,12 +48,14 @@ a:active, button:active, body:active{
 }
 .characters, .locations {
     display:none;
+    -moz-box-align: center;
     position:absolute;
     background-color: black;
     opacity: 0.8;
     box-shadow:inset, 10px;
-    padding:initial;
-    z-index:auto;
+    min-width:auto;
+    z-index:2;
+    border:2px solid white;
 }
 .characters a, .locations a {
     color:lightblue;
@@ -68,15 +65,12 @@ a:active, button:active, body:active{
 #characters:hover .characters, #locations:hover .locations{
     display:block;
     cursor: url("imgs/luger.png"), auto;
-    
 }
 .title_logo{
     max-height:400px;
 }
 .pliossing_my_pants{
     text-align:center;
-    animation:ease-in;
-    animation-duration:2s;
 }
 #cum {
     text-align:center;
@@ -84,14 +78,35 @@ a:active, button:active, body:active{
 .gentext{
   text-align:center;
   font-size:x-large;
-  color:aliceblue; 
+  font-weight: bolder;
+  color:white; 
   padding:40px;
 }
 button{
     cursor: url("imgs/drawn-luger.png"), auto;
 }
 .contentig {
-    width:auto;
-    height:auto;
-    border: 2px solid black;
+    padding-left: 10px;
+    border: 4px solid white;
+    background-color: black;
+    border-radius: 5px;
+    opacity:95%;
+    border-style: outset;
+    border-spacing:10px 5px;
+    z-index:1;
+}
+.img_management{
+    border: auto;
+    border-width: 2px;
+    border-style: groove;    
+}
+.centered{
+    position: inherit;
+    text-align: center;
+}
+.linked_content{
+    display:inline;
+    color:chartreuse;
+    text-decoration:none;
+
 }
